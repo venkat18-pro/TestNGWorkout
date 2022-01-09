@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="121" started-at="2022-01-09T14:29:39Z" finished-at="2022-01-09T14:29:40Z">
+  <suite name="Suite" duration-ms="111" started-at="2022-01-09T14:31:01Z" finished-at="2022-01-09T14:31:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="121" started-at="2022-01-09T14:29:39Z" finished-at="2022-01-09T14:29:40Z">
+    <test name="Test" duration-ms="111" started-at="2022-01-09T14:31:01Z" finished-at="2022-01-09T14:31:01Z">
       <class name="com.testng.demo.test.Testng1">
-        <test-method status="PASS" signature="start()[pri:0, instance:com.testng.demo.test.Testng1@8b96fde]" name="start" is-config="true" duration-ms="24" started-at="2022-01-09T14:29:39Z" finished-at="2022-01-09T14:29:40Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.testng.demo.test.Testng1@8b96fde]" name="start" is-config="true" duration-ms="23" started-at="2022-01-09T14:31:01Z" finished-at="2022-01-09T14:31:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@8b96fde]" name="startTime" is-config="true" duration-ms="12" started-at="2022-01-09T14:29:40Z" finished-at="2022-01-09T14:29:40Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@8b96fde]" name="startTime" is-config="true" duration-ms="9" started-at="2022-01-09T14:31:01Z" finished-at="2022-01-09T14:31:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.testng.demo.test.Testng1@8b96fde]" name="test1" duration-ms="16" started-at="2022-01-09T14:29:40Z" finished-at="2022-01-09T14:29:40Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.testng.demo.test.Testng1@8b96fde]" name="test1" duration-ms="11" started-at="2022-01-09T14:31:01Z" finished-at="2022-01-09T14:31:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@8b96fde]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-09T14:29:40Z" finished-at="2022-01-09T14:29:40Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@8b96fde]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-09T14:31:01Z" finished-at="2022-01-09T14:31:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.testng.demo.test.Testng1@8b96fde]" name="end" is-config="true" duration-ms="13" started-at="2022-01-09T14:29:40Z" finished-at="2022-01-09T14:29:40Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.testng.demo.test.Testng1@8b96fde]" name="end" is-config="true" duration-ms="7" started-at="2022-01-09T14:31:01Z" finished-at="2022-01-09T14:31:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.testng.demo.test.Testng1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
