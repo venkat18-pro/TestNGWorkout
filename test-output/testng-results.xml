@@ -1,41 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8745" started-at="2022-01-10T04:30:41Z" finished-at="2022-01-10T04:30:50Z">
+  <suite name="Default suite" duration-ms="16327" started-at="2022-01-10T12:42:18Z" finished-at="2022-01-10T12:42:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8745" started-at="2022-01-10T04:30:41Z" finished-at="2022-01-10T04:30:50Z">
+    <test name="Default test" duration-ms="16327" started-at="2022-01-10T12:42:18Z" finished-at="2022-01-10T12:42:34Z">
       <class name="com.testng.demo.test.Testng1">
-        <test-method status="PASS" signature="start()[pri:0, instance:com.testng.demo.test.Testng1@105fece7]" name="start" is-config="true" duration-ms="7140" started-at="2022-01-10T04:30:41Z" finished-at="2022-01-10T04:30:49Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.testng.demo.test.Testng1@105fece7]" name="start" is-config="true" duration-ms="14338" started-at="2022-01-10T12:42:18Z" finished-at="2022-01-10T12:42:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@105fece7]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-10T04:30:49Z" finished-at="2022-01-10T04:30:49Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@105fece7]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-10T12:42:32Z" finished-at="2022-01-10T12:42:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="cookieTest()[pri:0, instance:com.testng.demo.test.Testng1@105fece7]" name="cookieTest" duration-ms="59" started-at="2022-01-10T04:30:49Z" finished-at="2022-01-10T04:30:49Z">
+        <test-method status="PASS" signature="loginPage()[pri:1, instance:com.testng.demo.test.Testng1@105fece7]" name="loginPage" duration-ms="338" started-at="2022-01-10T12:42:32Z" finished-at="2022-01-10T12:42:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cookieTest -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@105fece7]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-10T04:30:49Z" finished-at="2022-01-10T04:30:49Z">
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@105fece7]" name="endTime" is-config="true" duration-ms="0" started-at="2022-01-10T12:42:33Z" finished-at="2022-01-10T12:42:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@105fece7]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-10T04:30:49Z" finished-at="2022-01-10T04:30:49Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@105fece7]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-10T12:42:33Z" finished-at="2022-01-10T12:42:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="storage()[pri:0, instance:com.testng.demo.test.Testng1@105fece7]" name="storage" duration-ms="202" started-at="2022-01-10T04:30:49Z" finished-at="2022-01-10T04:30:49Z">
+        <test-method status="PASS" signature="storage()[pri:2, instance:com.testng.demo.test.Testng1@105fece7]" name="storage" duration-ms="137" started-at="2022-01-10T12:42:33Z" finished-at="2022-01-10T12:42:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storage -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@105fece7]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-10T04:30:49Z" finished-at="2022-01-10T04:30:49Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@105fece7]" name="endTime" is-config="true" duration-ms="0" started-at="2022-01-10T12:42:33Z" finished-at="2022-01-10T12:42:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.testng.demo.test.Testng1@105fece7]" name="end" is-config="true" duration-ms="1257" started-at="2022-01-10T04:30:49Z" finished-at="2022-01-10T04:30:50Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@105fece7]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-10T12:42:33Z" finished-at="2022-01-10T12:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="cookieTest()[pri:3, instance:com.testng.demo.test.Testng1@105fece7]" name="cookieTest" duration-ms="45" started-at="2022-01-10T12:42:33Z" finished-at="2022-01-10T12:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookieTest -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@105fece7]" name="endTime" is-config="true" duration-ms="0" started-at="2022-01-10T12:42:33Z" finished-at="2022-01-10T12:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.testng.demo.test.Testng1@105fece7]" name="end" is-config="true" duration-ms="1397" started-at="2022-01-10T12:42:33Z" finished-at="2022-01-10T12:42:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

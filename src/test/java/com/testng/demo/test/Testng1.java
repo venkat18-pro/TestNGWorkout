@@ -2,11 +2,15 @@ package com.testng.demo.test;
 
 import java.util.Date;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.html5.LocalStorage;
 import org.openqa.selenium.html5.SessionStorage;
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -20,6 +24,7 @@ public class Testng1 {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get("https://facebook.com/");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
 	@BeforeMethod
@@ -27,7 +32,18 @@ public class Testng1 {
 		System.out.println(new Date());
 	}
 	
-	@Test
+	@Test(priority=1)
+	private void loginPage() {
+		WebElement userTxt = driver.findElement(By.id("email"));
+		Assert.assertTrue(userTxt.isDisplayed(), "User input field is displayed or not.");
+		WebElement passTxt = driver.findElement(By.id("pass"));
+		Assert.assertTrue(passTxt.isDisplayed(), "password input field is displayed or not.");
+		WebElement btnLogin = driver.findElement(By.name("login"));
+		Assert.assertTrue(btnLogin.isEnabled(), "Login Button is clickable or not.");	
+	}
+	
+	
+	@Test(priority=2)
 	private void storage() {
 		LocalStorage ls = driver.getLocalStorage();	
 		System.out.println("size : "+ls.size());
@@ -38,17 +54,13 @@ public class Testng1 {
 		
 	}
 	
-	@Test
+	@Test(priority=3)
 	private void cookieTest() {
 
 		Cookie cookieNamed = driver.manage().getCookieNamed("fr");
-		System.out.println("Cookie Name: "+cookieNamed.getDomain());
+		String domain = cookieNamed.getDomain();
+		Assert.assertTrue(domain.contains("facebook"), "Verify the domain name equals a facebook.");
 		
-		Set<Cookie> cookies = driver.manage().getCookies();
-		for (Cookie cookie : cookies) {
-			System.out.println("Name : "+cookie.getName());
-			System.out.println("Domain: "+cookie.getDomain());
-		}
 	}
 	@AfterMethod
 	private void endTime() {
