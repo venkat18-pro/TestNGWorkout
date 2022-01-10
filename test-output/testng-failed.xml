@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="com.testng.demo.test.Testng1">
         <methods>
-          <include name="test1"/>
+          <include name="storage"/>
           <include name="startTime"/>
           <include name="start"/>
           <include name="end"/>
@@ -13,5 +13,5 @@
         </methods>
       </class> <!-- com.testng.demo.test.Testng1 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

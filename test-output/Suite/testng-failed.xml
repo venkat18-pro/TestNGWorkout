@@ -5,7 +5,7 @@
     <classes>
       <class name="com.testng.demo.test.Testng1">
         <methods>
-          <include name="test1"/>
+          <include name="storage"/>
           <include name="startTime"/>
           <include name="start"/>
           <include name="end"/>
