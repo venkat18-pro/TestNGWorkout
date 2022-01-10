@@ -5,10 +5,10 @@
     <classes>
       <class name="com.testng.demo.test.Testng1">
         <methods>
-          <include name="test1"/>
           <include name="startTime"/>
           <include name="start"/>
           <include name="end"/>
+          <include name="loginPassValue"/>
           <include name="endTime"/>
         </methods>
       </class> <!-- com.testng.demo.test.Testng1 -->

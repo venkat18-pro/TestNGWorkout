@@ -2,13 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
+    <parameter name="pass" value="venkat18"/>
+    <parameter name="userId" value="venkat18"/>
     <classes>
       <class name="com.testng.demo.test.Testng1">
         <methods>
-          <include name="storage"/>
           <include name="startTime"/>
           <include name="start"/>
           <include name="end"/>
+          <include name="loginPassValue"/>
           <include name="endTime"/>
         </methods>
       </class> <!-- com.testng.demo.test.Testng1 -->

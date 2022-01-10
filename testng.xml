@@ -2,6 +2,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+  <parameter name="userId" value="venkat18"></parameter>
+  <parameter name="pass" value="venkat18"></parameter>
     <classes>
       <class name="com.testng.demo.test.Testng1"/>
     </classes>
