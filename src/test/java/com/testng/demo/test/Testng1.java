@@ -2,13 +2,22 @@ package com.testng.demo.test;
 
 import java.util.Date;
 
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.html5.LocalStorage;
+import org.openqa.selenium.html5.SessionStorage;
 import org.testng.annotations.*;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Testng1 {
 
+	ChromeDriver driver;
+	
 	@BeforeClass
 	private void start() {
-		System.out.println("Start");
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.get("https://facebook.com/");
 	}
 	
 	@BeforeMethod
@@ -17,8 +26,13 @@ public class Testng1 {
 	}
 	
 	@Test
-	private void test1() {
-		System.out.println("First test case.");
+	private void storage() {
+		LocalStorage ls = driver.getLocalStorage();	
+		System.out.println("size : "+ls.size());
+		System.out.println(ls.getItem("hb_timestamp"));
+		SessionStorage sl = driver.getSessionStorage();
+		System.out.println("size: "+sl.size());
+		System.out.println(sl.getItem("sp_pi"));
 	}
 	
 	@AfterMethod
@@ -28,7 +42,7 @@ public class Testng1 {
 	
 	@AfterClass
 	private void end() {
-		System.out.println("end");
+		driver.quit();
 	}
 }
 
