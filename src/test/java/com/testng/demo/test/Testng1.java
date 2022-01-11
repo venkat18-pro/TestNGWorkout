@@ -46,9 +46,24 @@ public class Testng1 {
 	@Parameters({"userId", "pass"})
 	@Test(priority=2)
 	private void loginPassValue(String name, String pass) {
+		WebElement inputTxt = driver.findElement(By.id("email"));
+		inputTxt.sendKeys(name);
+		WebElement passTxt = driver.findElement(By.id("pass"));
+		passTxt.sendKeys(pass);
+		
+		inputTxt.clear();
+		passTxt.clear();
+	}
+	
+	@Test(priority=5, dataProvider="input")
+	private void loginMultipleValuePassing(String name, String pass) {
 		driver.findElement(By.id("email")).sendKeys(name);
 		driver.findElement(By.id("pass")).sendKeys(pass);
-		driver.findElement(By.name("login")).click();
+	}
+	
+	@DataProvider(name="input")
+	private Object[][] multipleValue() {
+		return new Object[][] {{"venkat", "venkat18"}, {"vicky", "vicky18"}, {"hello", "hello18"}};
 	}
 	
 	@Test(priority=4)

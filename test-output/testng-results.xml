@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="17819" started-at="2022-01-10T13:02:13Z" finished-at="2022-01-10T13:02:31Z">
+  <suite name="Suite" duration-ms="27027" started-at="2022-01-11T11:40:40Z" finished-at="2022-01-11T11:41:07Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="17819" started-at="2022-01-10T13:02:13Z" finished-at="2022-01-10T13:02:31Z">
+    <test name="Test" duration-ms="27027" started-at="2022-01-11T11:40:40Z" finished-at="2022-01-11T11:41:07Z">
       <class name="com.testng.demo.test.Testng1">
-        <test-method status="PASS" signature="start()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="start" is-config="true" duration-ms="8554" started-at="2022-01-10T13:02:13Z" finished-at="2022-01-10T13:02:22Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.testng.demo.test.Testng1@75c072cb]" name="start" is-config="true" duration-ms="21283" started-at="2022-01-11T11:40:40Z" finished-at="2022-01-11T11:41:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-10T13:02:22Z" finished-at="2022-01-10T13:02:22Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@75c072cb]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-11T11:41:01Z" finished-at="2022-01-11T11:41:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="loginPage()[pri:1, instance:com.testng.demo.test.Testng1@7d68ef40]" name="loginPage" duration-ms="265" started-at="2022-01-10T13:02:22Z" finished-at="2022-01-10T13:02:22Z">
+        <test-method status="PASS" signature="loginPage()[pri:1, instance:com.testng.demo.test.Testng1@75c072cb]" name="loginPage" duration-ms="769" started-at="2022-01-11T11:41:01Z" finished-at="2022-01-11T11:41:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="endTime" is-config="true" duration-ms="0" started-at="2022-01-10T13:02:22Z" finished-at="2022-01-10T13:02:22Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@75c072cb]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-11T11:41:02Z" finished-at="2022-01-11T11:41:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-10T13:02:22Z" finished-at="2022-01-10T13:02:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="loginPassValue(java.lang.String, java.lang.String)[pri:2, instance:com.testng.demo.test.Testng1@7d68ef40]" name="loginPassValue" duration-ms="537" started-at="2022-01-10T13:02:22Z" finished-at="2022-01-10T13:02:22Z">
+        <test-method status="PASS" signature="loginPassValue(java.lang.String, java.lang.String)[pri:2, instance:com.testng.demo.test.Testng1@75c072cb]" name="loginPassValue" duration-ms="978" started-at="2022-01-11T11:41:02Z" finished-at="2022-01-11T11:41:03Z">
           <params>
             <param index="0">
               <value>
@@ -43,35 +39,111 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPassValue -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-10T13:02:22Z" finished-at="2022-01-10T13:02:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-10T13:02:22Z" finished-at="2022-01-10T13:02:22Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@75c072cb]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-11T11:41:02Z" finished-at="2022-01-11T11:41:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="cookieTest()[pri:3, instance:com.testng.demo.test.Testng1@7d68ef40]" name="cookieTest" duration-ms="7049" started-at="2022-01-10T13:02:22Z" finished-at="2022-01-10T13:02:29Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@75c072cb]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-11T11:41:03Z" finished-at="2022-01-11T11:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@75c072cb]" name="startTime" is-config="true" duration-ms="2" started-at="2022-01-11T11:41:03Z" finished-at="2022-01-11T11:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="cookieTest()[pri:3, instance:com.testng.demo.test.Testng1@75c072cb]" name="cookieTest" duration-ms="81" started-at="2022-01-11T11:41:03Z" finished-at="2022-01-11T11:41:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookieTest -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="endTime" is-config="true" duration-ms="0" started-at="2022-01-10T13:02:29Z" finished-at="2022-01-10T13:02:29Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@75c072cb]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-11T11:41:03Z" finished-at="2022-01-11T11:41:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-10T13:02:29Z" finished-at="2022-01-10T13:02:29Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@75c072cb]" name="startTime" is-config="true" duration-ms="4" started-at="2022-01-11T11:41:03Z" finished-at="2022-01-11T11:41:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="storage()[pri:4, instance:com.testng.demo.test.Testng1@7d68ef40]" name="storage" duration-ms="75" started-at="2022-01-10T13:02:29Z" finished-at="2022-01-10T13:02:30Z">
+        <test-method status="PASS" signature="storage()[pri:4, instance:com.testng.demo.test.Testng1@75c072cb]" name="storage" duration-ms="80" started-at="2022-01-11T11:41:03Z" finished-at="2022-01-11T11:41:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storage -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="endTime" is-config="true" duration-ms="0" started-at="2022-01-10T13:02:30Z" finished-at="2022-01-10T13:02:30Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@75c072cb]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-11T11:41:03Z" finished-at="2022-01-11T11:41:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="end" is-config="true" duration-ms="1198" started-at="2022-01-10T13:02:30Z" finished-at="2022-01-10T13:02:31Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@75c072cb]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-11T11:41:03Z" finished-at="2022-01-11T11:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@75c072cb]" name="loginMultipleValuePassing" duration-ms="308" started-at="2022-01-11T11:41:03Z" data-provider="input" finished-at="2022-01-11T11:41:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[venkat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[venkat18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMultipleValuePassing -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@75c072cb]" name="endTime" is-config="true" duration-ms="0" started-at="2022-01-11T11:41:04Z" finished-at="2022-01-11T11:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@75c072cb]" name="loginMultipleValuePassing" duration-ms="422" started-at="2022-01-11T11:41:04Z" data-provider="input" finished-at="2022-01-11T11:41:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vicky]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vicky18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMultipleValuePassing -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@75c072cb]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-11T11:41:04Z" finished-at="2022-01-11T11:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@75c072cb]" name="startTime" is-config="true" duration-ms="5" started-at="2022-01-11T11:41:04Z" finished-at="2022-01-11T11:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@75c072cb]" name="endTime" is-config="true" duration-ms="0" started-at="2022-01-11T11:41:04Z" finished-at="2022-01-11T11:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@75c072cb]" name="loginMultipleValuePassing" duration-ms="324" started-at="2022-01-11T11:41:04Z" data-provider="input" finished-at="2022-01-11T11:41:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hello18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMultipleValuePassing -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@75c072cb]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-11T11:41:04Z" finished-at="2022-01-11T11:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.testng.demo.test.Testng1@75c072cb]" name="end" is-config="true" duration-ms="2461" started-at="2022-01-11T11:41:04Z" finished-at="2022-01-11T11:41:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

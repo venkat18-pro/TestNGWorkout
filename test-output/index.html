@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,21 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testng.demo.test.Testng1" hash-for-method="cookieTest">cookieTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testng.demo.test.Testng1" hash-for-method="loginMultipleValuePassing(hello, hello18)">loginMultipleValuePassing(hello, hello18)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testng.demo.test.Testng1" hash-for-method="loginMultipleValuePassing(vicky, vicky18)">loginMultipleValuePassing(vicky, vicky18)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testng.demo.test.Testng1" hash-for-method="loginMultipleValuePassing(venkat, venkat18)">loginMultipleValuePassing(venkat, venkat18)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -143,6 +158,30 @@
                   <a name="cookieTest">
                   </a> <!-- cookieTest -->
                   <span class="method-name">cookieTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginMultipleValuePassing(hello, hello18)">
+                  </a> <!-- loginMultipleValuePassing(hello, hello18) -->
+                  <span class="method-name">loginMultipleValuePassing</span>
+                  <span class="parameters">(hello, hello18)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginMultipleValuePassing(vicky, vicky18)">
+                  </a> <!-- loginMultipleValuePassing(vicky, vicky18) -->
+                  <span class="method-name">loginMultipleValuePassing</span>
+                  <span class="parameters">(vicky, vicky18)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginMultipleValuePassing(venkat, venkat18)">
+                  </a> <!-- loginMultipleValuePassing(venkat, venkat18) -->
+                  <span class="method-name">loginMultipleValuePassing</span>
+                  <span class="parameters">(venkat, venkat18)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -223,28 +262,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'cookieTest')
+data.setCell(0, 1, 'loginPassValue')
 data.setCell(0, 2, 'com.testng.demo.test.Testng1')
-data.setCell(0, 3, 7049);
+data.setCell(0, 3, 978);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginPassValue')
+data.setCell(1, 1, 'loginPage')
 data.setCell(1, 2, 'com.testng.demo.test.Testng1')
-data.setCell(1, 3, 537);
+data.setCell(1, 3, 769);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginPage')
+data.setCell(2, 1, 'loginMultipleValuePassing')
 data.setCell(2, 2, 'com.testng.demo.test.Testng1')
-data.setCell(2, 3, 265);
+data.setCell(2, 3, 422);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'storage')
+data.setCell(3, 1, 'loginMultipleValuePassing')
 data.setCell(3, 2, 'com.testng.demo.test.Testng1')
-data.setCell(3, 3, 75);
+data.setCell(3, 3, 324);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginMultipleValuePassing')
+data.setCell(4, 2, 'com.testng.demo.test.Testng1')
+data.setCell(4, 3, 308);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'cookieTest')
+data.setCell(5, 2, 'com.testng.demo.test.Testng1')
+data.setCell(5, 3, 81);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'storage')
+data.setCell(6, 2, 'com.testng.demo.test.Testng1')
+data.setCell(6, 3, 80);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -277,55 +328,91 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">startTime</span>
-                <span class="method-start">8575 ms</span>
+                <span class="method-start">21398 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginPage</span>
-                <span class="method-start">8576 ms</span>
+                <span class="method-start">21399 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTime</span>
-                <span class="method-start">8844 ms</span>
+                <span class="method-start">22170 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startTime</span>
-                <span class="method-start">8851 ms</span>
+                <span class="method-start">22186 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginPassValue(venkat18, venkat18)</span>
-                <span class="method-start">8851 ms</span>
+                <span class="method-start">22186 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTime</span>
-                <span class="method-start">9391 ms</span>
+                <span class="method-start">23166 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startTime</span>
-                <span class="method-start">9392 ms</span>
+                <span class="method-start">23167 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cookieTest</span>
-                <span class="method-start">9393 ms</span>
+                <span class="method-start">23169 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTime</span>
-                <span class="method-start">16445 ms</span>
+                <span class="method-start">23252 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startTime</span>
-                <span class="method-start">16446 ms</span>
+                <span class="method-start">23253 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">storage</span>
-                <span class="method-start">16446 ms</span>
+                <span class="method-start">23257 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endTime</span>
-                <span class="method-start">16524 ms</span>
+                <span class="method-start">23342 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTime</span>
+                <span class="method-start">23458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginMultipleValuePassing(venkat, venkat18)</span>
+                <span class="method-start">23459 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTime</span>
+                <span class="method-start">23769 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTime</span>
+                <span class="method-start">23770 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginMultipleValuePassing(vicky, vicky18)</span>
+                <span class="method-start">23770 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTime</span>
+                <span class="method-start">24194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTime</span>
+                <span class="method-start">24194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginMultipleValuePassing(hello, hello18)</span>
+                <span class="method-start">24199 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTime</span>
+                <span class="method-start">24526 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">end</span>
-                <span class="method-start">16525 ms</span>
+                <span class="method-start">24527 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
