@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="pass" value="venkat18"/>
-    <parameter name="userId" value="venkat18"/>
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" name="Test1(failed)" parallel="tests">
     <classes>
-      <class name="com.testng.demo.test.Testng1">
+      <class name="com.testng.demo.test.Test2">
         <methods>
-          <include name="startTime"/>
           <include name="start"/>
-          <include name="end"/>
-          <include name="loginPassValue"/>
           <include name="endTime"/>
+          <include name="startTime"/>
+          <include name="end"/>
+          <include name="newAcount"/>
         </methods>
-      </class> <!-- com.testng.demo.test.Testng1 -->
+      </class> <!-- com.testng.demo.test.Test2 -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -25,6 +25,7 @@ public class Testng1 {
 		driver = new ChromeDriver();
 		driver.get("https://facebook.com/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
 	}
 	
 	@BeforeMethod
@@ -44,7 +45,7 @@ public class Testng1 {
 	}
 	
 	@Parameters({"userId", "pass"})
-	@Test(priority=2)
+	@Test(priority=2, enabled=false)
 	private void loginPassValue(String name, String pass) {
 		WebElement inputTxt = driver.findElement(By.id("email"));
 		inputTxt.sendKeys(name);
@@ -55,10 +56,17 @@ public class Testng1 {
 		passTxt.clear();
 	}
 	
-	@Test(priority=5, dataProvider="input")
+	@Test(priority=5, dataProvider="input", groups="MUL")
 	private void loginMultipleValuePassing(String name, String pass) {
-		driver.findElement(By.id("email")).sendKeys(name);
-		driver.findElement(By.id("pass")).sendKeys(pass);
+		WebElement usertxt = driver.findElement(By.id("email"));
+		usertxt.sendKeys(name);
+		
+		WebElement userPass = driver.findElement(By.id("pass"));
+		userPass.sendKeys(pass);
+		
+		usertxt.clear();
+		userPass.clear();
+
 	}
 	
 	@DataProvider(name="input")
@@ -66,7 +74,7 @@ public class Testng1 {
 		return new Object[][] {{"venkat", "venkat18"}, {"vicky", "vicky18"}, {"hello", "hello18"}};
 	}
 	
-	@Test(priority=4)
+	@Test(priority=4, enabled=false)
 	private void storage() {
 		LocalStorage lStroage = driver.getLocalStorage();	
 		lStroage.size();
@@ -75,7 +83,7 @@ public class Testng1 {
 		sStroage.size();
 	}
 	
-	@Test(priority=3)
+	@Test(priority=3, enabled=false)
 	private void cookieTest() {
 		Cookie cookieNamed = driver.manage().getCookieNamed("fr");
 		String domain = cookieNamed.getDomain();
