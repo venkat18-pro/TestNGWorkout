@@ -5,24 +5,35 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.html5.LocalStorage;
 import org.openqa.selenium.html5.SessionStorage;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import com.beust.jcommander.Parameter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Testng1 {
 
-	ChromeDriver driver;
+	WebDriver driver;
+	
 	
 	@BeforeClass
-	private void start() {
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+	@Parameter(names = {"browserName"})
+	private void start(String browserName) {
+		if(browserName.equals("chrome")) {
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+		}else if(browserName.equals("firefox")) {
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+		}
+		
 		driver.get("https://facebook.com/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
@@ -72,15 +83,6 @@ public class Testng1 {
 	@DataProvider(name="input")
 	private Object[][] multipleValue() {
 		return new Object[][] {{"venkat", "venkat18"}, {"vicky", "vicky18"}, {"hello", "hello18"}};
-	}
-	
-	@Test(priority=4, enabled=false)
-	private void storage() {
-		LocalStorage lStroage = driver.getLocalStorage();	
-		lStroage.size();
-		lStroage.getItem("hb_timestamp");
-		SessionStorage sStroage = driver.getSessionStorage();
-		sStroage.size();
 	}
 	
 	@Test(priority=3, enabled=false)

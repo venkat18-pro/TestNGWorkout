@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
-  <test thread-count="2" name="Test(failed)" parallel="classes">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="com.testng.demo.test.Testng2">
+      <class name="com.testng.demo.test.Testng1">
         <methods>
-          <include name="test1"/>
+          <include name="startTime"/>
+          <include name="start"/>
+          <include name="end"/>
+          <include name="loginPage"/>
+          <include name="endTime"/>
+          <include name="loginMultipleValuePassing"/>
         </methods>
-      </class> <!-- com.testng.demo.test.Testng2 -->
+      </class> <!-- com.testng.demo.test.Testng1 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
