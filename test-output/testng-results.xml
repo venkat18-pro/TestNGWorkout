@@ -1,36 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="3" total="9" passed="5">
+<testng-results skipped="0" failed="0" ignored="3" total="8" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="33561" started-at="2022-01-25T09:51:40Z" finished-at="2022-01-25T09:52:14Z">
+  <suite name="Suite" duration-ms="39587" started-at="2022-01-28T05:41:56Z" finished-at="2022-01-28T05:42:36Z">
     <groups>
       <group name="MUL">
-        <method signature="Testng1.loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@7d68ef40]" name="loginMultipleValuePassing" class="com.testng.demo.test.Testng1"/>
+        <method signature="Testng1.loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@20d3d15a]" name="loginMultipleValuePassing" class="com.testng.demo.test.Testng1"/>
       </group> <!-- MUL -->
     </groups>
-    <test name="Test" duration-ms="27268" started-at="2022-01-25T09:51:40Z" finished-at="2022-01-25T09:52:07Z">
+    <test name="Test" duration-ms="39587" started-at="2022-01-28T05:41:56Z" finished-at="2022-01-28T05:42:36Z">
+      <class name="com.testng.demo.test.Testng2">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.testng.demo.test.Testng2@2893de87]" name="test1" duration-ms="18034" started-at="2022-01-28T05:41:56Z" finished-at="2022-01-28T05:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.testng.demo.test.Testng2 -->
       <class name="com.testng.demo.test.Testng1">
-        <test-method status="PASS" signature="start()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="start" is-config="true" duration-ms="21918" started-at="2022-01-25T09:51:40Z" finished-at="2022-01-25T09:52:02Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.testng.demo.test.Testng1@20d3d15a]" name="start" is-config="true" duration-ms="14024" started-at="2022-01-28T05:42:14Z" finished-at="2022-01-28T05:42:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-25T09:52:02Z" finished-at="2022-01-25T09:52:02Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@20d3d15a]" name="startTime" is-config="true" duration-ms="3" started-at="2022-01-28T05:42:28Z" finished-at="2022-01-28T05:42:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="loginPage()[pri:1, instance:com.testng.demo.test.Testng1@7d68ef40]" name="loginPage" duration-ms="788" started-at="2022-01-25T09:52:02Z" finished-at="2022-01-25T09:52:03Z">
+        <test-method status="PASS" signature="loginPage()[pri:1, instance:com.testng.demo.test.Testng1@20d3d15a]" name="loginPage" duration-ms="1615" started-at="2022-01-28T05:42:28Z" finished-at="2022-01-28T05:42:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-25T09:52:03Z" finished-at="2022-01-25T09:52:03Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@20d3d15a]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-28T05:42:30Z" finished-at="2022-01-28T05:42:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-25T09:52:03Z" finished-at="2022-01-25T09:52:03Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@20d3d15a]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-28T05:42:30Z" finished-at="2022-01-28T05:42:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@7d68ef40]" name="loginMultipleValuePassing" duration-ms="1647" started-at="2022-01-25T09:52:03Z" data-provider="input" finished-at="2022-01-25T09:52:04Z">
+        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@20d3d15a]" name="loginMultipleValuePassing" duration-ms="2334" started-at="2022-01-28T05:42:30Z" data-provider="input" finished-at="2022-01-28T05:42:32Z">
           <params>
             <param index="0">
               <value>
@@ -46,15 +52,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginMultipleValuePassing -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="endTime" is-config="true" duration-ms="0" started-at="2022-01-25T09:52:04Z" finished-at="2022-01-25T09:52:04Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@20d3d15a]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-28T05:42:32Z" finished-at="2022-01-28T05:42:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-25T09:52:04Z" finished-at="2022-01-25T09:52:04Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@20d3d15a]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-28T05:42:32Z" finished-at="2022-01-28T05:42:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@7d68ef40]" name="loginMultipleValuePassing" duration-ms="529" started-at="2022-01-25T09:52:04Z" data-provider="input" finished-at="2022-01-25T09:52:05Z">
+        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@20d3d15a]" name="loginMultipleValuePassing" duration-ms="600" started-at="2022-01-28T05:42:32Z" data-provider="input" finished-at="2022-01-28T05:42:33Z">
           <params>
             <param index="0">
               <value>
@@ -70,11 +76,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginMultipleValuePassing -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-25T09:52:05Z" finished-at="2022-01-25T09:52:05Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@20d3d15a]" name="endTime" is-config="true" duration-ms="0" started-at="2022-01-28T05:42:33Z" finished-at="2022-01-28T05:42:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@7d68ef40]" name="loginMultipleValuePassing" duration-ms="536" started-at="2022-01-25T09:52:05Z" data-provider="input" finished-at="2022-01-25T09:52:05Z">
+        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@20d3d15a]" name="loginMultipleValuePassing" duration-ms="1195" started-at="2022-01-28T05:42:33Z" data-provider="input" finished-at="2022-01-28T05:42:34Z">
           <params>
             <param index="0">
               <value>
@@ -90,115 +96,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginMultipleValuePassing -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-25T09:52:05Z" finished-at="2022-01-25T09:52:05Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@20d3d15a]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-28T05:42:33Z" finished-at="2022-01-28T05:42:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-25T09:52:05Z" finished-at="2022-01-25T09:52:05Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@20d3d15a]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-28T05:42:34Z" finished-at="2022-01-28T05:42:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.testng.demo.test.Testng1@7d68ef40]" name="end" is-config="true" duration-ms="1780" started-at="2022-01-25T09:52:05Z" finished-at="2022-01-25T09:52:07Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.testng.demo.test.Testng1@20d3d15a]" name="end" is-config="true" duration-ms="1479" started-at="2022-01-28T05:42:34Z" finished-at="2022-01-28T05:42:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.testng.demo.test.Testng1 -->
     </test> <!-- Test -->
-    <test name="Test1" duration-ms="33560" started-at="2022-01-25T09:51:40Z" finished-at="2022-01-25T09:52:14Z">
-      <class name="com.testng.demo.test.Test2">
-        <test-method status="PASS" signature="start()[pri:0, instance:com.testng.demo.test.Test2@3b938003]" name="start" is-config="true" duration-ms="21720" started-at="2022-01-25T09:51:40Z" finished-at="2022-01-25T09:52:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Test2@3b938003]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-25T09:52:02Z" finished-at="2022-01-25T09:52:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="loginBtnColor()[pri:1, instance:com.testng.demo.test.Test2@3b938003]" name="loginBtnColor" duration-ms="363" started-at="2022-01-25T09:52:02Z" finished-at="2022-01-25T09:52:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginBtnColor -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Test2@3b938003]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-25T09:52:02Z" finished-at="2022-01-25T09:52:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Test2@3b938003]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-25T09:52:02Z" finished-at="2022-01-25T09:52:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTime -->
-        <test-method status="FAIL" signature="newAcount()[pri:2, instance:com.testng.demo.test.Test2@3b938003]" name="newAcount" duration-ms="10160" started-at="2022-01-25T09:52:02Z" finished-at="2022-01-25T09:52:12Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#u_0_2_Yn"}
-  (Session info: chrome=97.0.4692.99)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LENOVO', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ELCOT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58497}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a4dee6a817f67d144bb574f2d1b2fb7
-*** Element info: {Using=id, value=u_0_2_Yn}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#u_0_2_Yn"}
-  (Session info: chrome=97.0.4692.99)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LENOVO', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ELCOT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58497}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a4dee6a817f67d144bb574f2d1b2fb7
-*** Element info: {Using=id, value=u_0_2_Yn}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.testng.demo.test.Test2.newAcount(Test2.java:47)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newAcount -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Test2@3b938003]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-25T09:52:12Z" finished-at="2022-01-25T09:52:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.testng.demo.test.Test2@3b938003]" name="end" is-config="true" duration-ms="1165" started-at="2022-01-25T09:52:12Z" finished-at="2022-01-25T09:52:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-      </class> <!-- com.testng.demo.test.Test2 -->
-    </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>

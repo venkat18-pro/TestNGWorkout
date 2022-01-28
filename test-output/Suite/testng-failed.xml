@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="2" name="Test1(failed)" parallel="tests">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="2" name="Test(failed)" parallel="classes">
     <classes>
-      <class name="com.testng.demo.test.Test2">
+      <class name="com.testng.demo.test.Testng2">
         <methods>
-          <include name="start"/>
-          <include name="endTime"/>
-          <include name="startTime"/>
-          <include name="end"/>
-          <include name="newAcount"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- com.testng.demo.test.Test2 -->
+      </class> <!-- com.testng.demo.test.Testng2 -->
     </classes>
-  </test> <!-- Test1(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
