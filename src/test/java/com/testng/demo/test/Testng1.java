@@ -24,7 +24,7 @@ public class Testng1 {
 	
 	
 	@BeforeClass
-	@Parameter(names = {"browserName"})
+	@Parameters("browserName")
 	private void start(String browserName) {
 		if(browserName.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
@@ -35,7 +35,7 @@ public class Testng1 {
 		}
 		
 		driver.get("https://facebook.com/");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 	}
 	
