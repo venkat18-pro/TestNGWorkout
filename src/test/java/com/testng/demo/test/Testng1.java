@@ -21,7 +21,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Testng1 {
 
 	WebDriver driver;
-	
+	int i=1;
 	
 	@BeforeClass
 	@Parameters("browserName")
@@ -37,10 +37,12 @@ public class Testng1 {
 		driver.get("https://facebook.com/");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
+		System.out.println("Starting Browsers.");
 	}
 	
 	@BeforeMethod
 	private void startTime() {
+		System.out.print(i+ " Test case time started: ");
 		System.out.println(new Date());
 	}
 	
@@ -94,7 +96,9 @@ public class Testng1 {
 	
 	@AfterMethod
 	private void endTime() {
+		System.out.print(i+" End the Test case: ");
 		System.out.println(new Date());
+		i++;
 	}
 	
 	@AfterClass

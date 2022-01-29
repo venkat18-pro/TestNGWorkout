@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="4" total="12" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="34300" started-at="2022-01-29T11:09:12Z" finished-at="2022-01-29T11:09:46Z">
+  <suite name="Suite" duration-ms="39536" started-at="2022-01-29T11:19:55Z" finished-at="2022-01-29T11:20:35Z">
     <groups>
       <group name="MUL">
         <method signature="Testng1.loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@2893de87]" name="loginMultipleValuePassing" class="com.testng.demo.test.Testng1"/>
         <method signature="Testng1.loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="loginMultipleValuePassing" class="com.testng.demo.test.Testng1"/>
       </group> <!-- MUL -->
     </groups>
-    <test name="Test" duration-ms="21025" started-at="2022-01-29T11:09:12Z" finished-at="2022-01-29T11:09:33Z">
+    <test name="Test" duration-ms="19882" started-at="2022-01-29T11:19:55Z" finished-at="2022-01-29T11:20:15Z">
       <class name="com.testng.demo.test.Testng1">
-        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="start" is-config="true" duration-ms="13693" started-at="2022-01-29T11:09:12Z" finished-at="2022-01-29T11:09:26Z">
+        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="start" is-config="true" duration-ms="13002" started-at="2022-01-29T11:19:55Z" finished-at="2022-01-29T11:20:08Z">
           <params>
             <param index="0">
               <value>
@@ -22,23 +22,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:09:26Z" finished-at="2022-01-29T11:09:26Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="startTime" is-config="true" duration-ms="2" started-at="2022-01-29T11:20:08Z" finished-at="2022-01-29T11:20:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="loginPage()[pri:1, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="loginPage" duration-ms="365" started-at="2022-01-29T11:09:26Z" finished-at="2022-01-29T11:09:26Z">
+        <test-method status="PASS" signature="loginPage()[pri:1, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="loginPage" duration-ms="903" started-at="2022-01-29T11:20:08Z" finished-at="2022-01-29T11:20:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:09:26Z" finished-at="2022-01-29T11:09:26Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:20:09Z" finished-at="2022-01-29T11:20:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="startTime" is-config="true" duration-ms="7" started-at="2022-01-29T11:09:26Z" finished-at="2022-01-29T11:09:26Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:20:09Z" finished-at="2022-01-29T11:20:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="loginMultipleValuePassing" duration-ms="741" started-at="2022-01-29T11:09:26Z" data-provider="input" finished-at="2022-01-29T11:09:27Z">
+        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="loginMultipleValuePassing" duration-ms="1170" started-at="2022-01-29T11:20:09Z" data-provider="input" finished-at="2022-01-29T11:20:10Z">
           <params>
             <param index="0">
               <value>
@@ -54,15 +54,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginMultipleValuePassing -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="endTime" is-config="true" duration-ms="4" started-at="2022-01-29T11:09:27Z" finished-at="2022-01-29T11:09:27Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="endTime" is-config="true" duration-ms="4" started-at="2022-01-29T11:20:10Z" finished-at="2022-01-29T11:20:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="startTime" is-config="true" duration-ms="2" started-at="2022-01-29T11:09:27Z" finished-at="2022-01-29T11:09:27Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="startTime" is-config="true" duration-ms="2" started-at="2022-01-29T11:20:10Z" finished-at="2022-01-29T11:20:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="loginMultipleValuePassing" duration-ms="1441" started-at="2022-01-29T11:09:27Z" data-provider="input" finished-at="2022-01-29T11:09:28Z">
+        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="loginMultipleValuePassing" duration-ms="772" started-at="2022-01-29T11:20:10Z" data-provider="input" finished-at="2022-01-29T11:20:11Z">
           <params>
             <param index="0">
               <value>
@@ -78,11 +78,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginMultipleValuePassing -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="endTime" is-config="true" duration-ms="0" started-at="2022-01-29T11:09:28Z" finished-at="2022-01-29T11:09:28Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:20:11Z" finished-at="2022-01-29T11:20:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="loginMultipleValuePassing" duration-ms="1254" started-at="2022-01-29T11:09:28Z" data-provider="input" finished-at="2022-01-29T11:09:29Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:20:11Z" finished-at="2022-01-29T11:20:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="loginMultipleValuePassing" duration-ms="873" started-at="2022-01-29T11:20:11Z" data-provider="input" finished-at="2022-01-29T11:20:12Z">
           <params>
             <param index="0">
               <value>
@@ -98,23 +102,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginMultipleValuePassing -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-29T11:09:28Z" finished-at="2022-01-29T11:09:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:09:29Z" finished-at="2022-01-29T11:09:29Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:20:12Z" finished-at="2022-01-29T11:20:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="end" is-config="true" duration-ms="3444" started-at="2022-01-29T11:09:29Z" finished-at="2022-01-29T11:09:33Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.testng.demo.test.Testng1@6f3b5d16]" name="end" is-config="true" duration-ms="3095" started-at="2022-01-29T11:20:12Z" finished-at="2022-01-29T11:20:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.testng.demo.test.Testng1 -->
     </test> <!-- Test -->
-    <test name="Test1" duration-ms="34300" started-at="2022-01-29T11:09:12Z" finished-at="2022-01-29T11:09:46Z">
+    <test name="Test1" duration-ms="39536" started-at="2022-01-29T11:19:55Z" finished-at="2022-01-29T11:20:35Z">
       <class name="com.testng.demo.test.Testng1">
-        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="start" is-config="true" duration-ms="27990" started-at="2022-01-29T11:09:12Z" finished-at="2022-01-29T11:09:40Z">
+        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="start" is-config="true" duration-ms="33118" started-at="2022-01-29T11:19:55Z" finished-at="2022-01-29T11:20:28Z">
           <params>
             <param index="0">
               <value>
@@ -125,23 +125,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:09:40Z" finished-at="2022-01-29T11:09:40Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:20:28Z" finished-at="2022-01-29T11:20:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="loginPage()[pri:1, instance:com.testng.demo.test.Testng1@2893de87]" name="loginPage" duration-ms="666" started-at="2022-01-29T11:09:40Z" finished-at="2022-01-29T11:09:41Z">
+        <test-method status="PASS" signature="loginPage()[pri:1, instance:com.testng.demo.test.Testng1@2893de87]" name="loginPage" duration-ms="1194" started-at="2022-01-29T11:20:28Z" finished-at="2022-01-29T11:20:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:09:41Z" finished-at="2022-01-29T11:09:41Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:20:29Z" finished-at="2022-01-29T11:20:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-29T11:09:41Z" finished-at="2022-01-29T11:09:41Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:20:29Z" finished-at="2022-01-29T11:20:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@2893de87]" name="loginMultipleValuePassing" duration-ms="665" started-at="2022-01-29T11:09:41Z" data-provider="input" finished-at="2022-01-29T11:09:41Z">
+        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@2893de87]" name="loginMultipleValuePassing" duration-ms="1223" started-at="2022-01-29T11:20:29Z" data-provider="input" finished-at="2022-01-29T11:20:31Z">
           <params>
             <param index="0">
               <value>
@@ -157,15 +157,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginMultipleValuePassing -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:09:41Z" finished-at="2022-01-29T11:09:41Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="endTime" is-config="true" duration-ms="0" started-at="2022-01-29T11:20:31Z" finished-at="2022-01-29T11:20:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-29T11:09:41Z" finished-at="2022-01-29T11:09:41Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="startTime" is-config="true" duration-ms="2" started-at="2022-01-29T11:20:31Z" finished-at="2022-01-29T11:20:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@2893de87]" name="loginMultipleValuePassing" duration-ms="542" started-at="2022-01-29T11:09:41Z" data-provider="input" finished-at="2022-01-29T11:09:42Z">
+        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@2893de87]" name="loginMultipleValuePassing" duration-ms="391" started-at="2022-01-29T11:20:31Z" data-provider="input" finished-at="2022-01-29T11:20:31Z">
           <params>
             <param index="0">
               <value>
@@ -181,15 +181,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginMultipleValuePassing -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:09:42Z" finished-at="2022-01-29T11:09:42Z">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:20:31Z" finished-at="2022-01-29T11:20:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="startTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:09:42Z" finished-at="2022-01-29T11:09:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTime -->
-        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@2893de87]" name="loginMultipleValuePassing" duration-ms="418" started-at="2022-01-29T11:09:42Z" data-provider="input" finished-at="2022-01-29T11:09:42Z">
+        <test-method status="PASS" signature="loginMultipleValuePassing(java.lang.String, java.lang.String)[pri:5, instance:com.testng.demo.test.Testng1@2893de87]" name="loginMultipleValuePassing" duration-ms="446" started-at="2022-01-29T11:20:31Z" data-provider="input" finished-at="2022-01-29T11:20:32Z">
           <params>
             <param index="0">
               <value>
@@ -205,11 +201,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginMultipleValuePassing -->
-        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:09:42Z" finished-at="2022-01-29T11:09:42Z">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="startTime" is-config="true" duration-ms="0" started-at="2022-01-29T11:20:31Z" finished-at="2022-01-29T11:20:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="endTime" is-config="true" duration-ms="1" started-at="2022-01-29T11:20:32Z" finished-at="2022-01-29T11:20:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTime -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="end" is-config="true" duration-ms="3922" started-at="2022-01-29T11:09:42Z" finished-at="2022-01-29T11:09:46Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.testng.demo.test.Testng1@2893de87]" name="end" is-config="true" duration-ms="3068" started-at="2022-01-29T11:20:32Z" finished-at="2022-01-29T11:20:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
