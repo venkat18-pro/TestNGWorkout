@@ -46,7 +46,7 @@ public class Testng1 {
 		System.out.println(new Date());
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1, groups= {"REG"})
 	private void loginPage() {
 		WebElement userTxt = driver.findElement(By.id("email"));
 		Assert.assertTrue(userTxt.isDisplayed(), "User input field is displayed or not.");
@@ -58,7 +58,7 @@ public class Testng1 {
 	}
 	
 	@Parameters({"userId", "pass"})
-	@Test(priority=2, enabled=false)
+	@Test(priority=2, groups= {"MUS"})
 	private void loginPassValue(String name, String pass) {
 		WebElement inputTxt = driver.findElement(By.id("email"));
 		inputTxt.sendKeys(name);
@@ -69,7 +69,7 @@ public class Testng1 {
 		passTxt.clear();
 	}
 	
-	@Test(priority=5, dataProvider="input", groups="MUL")
+	@Test(priority=5, dataProvider="input", groups= {"REG"})
 	private void loginMultipleValuePassing(String name, String pass) {
 		WebElement usertxt = driver.findElement(By.id("email"));
 		usertxt.sendKeys(name);

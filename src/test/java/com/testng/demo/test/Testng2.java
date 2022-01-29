@@ -8,11 +8,32 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Testng2 {
 
-	@Test
+	@Test(groups= {"REG"})
 	private void test1() {
 		WebDriverManager.firefoxdriver().setup();
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");
+		System.out.println("Test1 method REG");
 	}
-	
+	@Test(groups= {"SAN"})
+	private void test2() {
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://www.facebook.com/");
+		System.out.println("test2 method SAN");
+	}	
+	@Test(groups="REG")
+	private void test3() {
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://www.facebook.com/");
+		System.out.println("test3 method REG");
+	}	
+	@Test(groups="SAN")
+	private void test4() {
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://www.facebook.com/");
+		System.out.println("test4 method SAN");
+	}
 }
