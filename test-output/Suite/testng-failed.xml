@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="5" name="Test1(failed)" parallel="tests">
-    <parameter name="pass" value="venkat18"/>
-    <parameter name="browserName" value="firefox"/>
-    <parameter name="userId" value="venkatesh"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="REG"/>
+        <include name="SAN"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.testng.demo.test.Testng1">
+      <class name="com.testng.demo.test.Testng2">
         <methods>
-          <include name="startTime"/>
-          <include name="start"/>
-          <include name="end"/>
-          <include name="loginPassValue"/>
-          <include name="loginPage"/>
-          <include name="endTime"/>
-          <include name="loginMultipleValuePassing"/>
+          <include name="test4"/>
+          <include name="test3"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- com.testng.demo.test.Testng1 -->
+      </class> <!-- com.testng.demo.test.Testng2 -->
     </classes>
-  </test> <!-- Test1(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
